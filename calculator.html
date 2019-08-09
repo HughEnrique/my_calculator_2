@@ -19,6 +19,9 @@
         function quarter() {
             var num = document.getElementById("n1");
             num.value = Math.pow(num.value, 4);
+        function sin() {
+            var num = document.getElementById("n1");
+            num.value = Math.sin(num.value);
         }
     </script>
 </head>
@@ -33,6 +36,7 @@
         <button onclick="quarter()"> x^4 </button>
         <button onclick="inverse()"> 1/x </button>
         
+        <button onclick="sin()"> sin(x) </button>
     </p>
 </body>
 
